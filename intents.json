@@ -1,0 +1,151 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","hey","I want a help"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","bbyee"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+{"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "tasks",
+         "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+         "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage as soon i'm developed, I can do everything"]
+        },
+        {"tag": "talk",
+         "patterns": [ "can you sing", "can you talk" ],
+         "responses": ["Yeah surely", "do you want me to sing"]
+        },
+        {"tag": "alive",
+         "patterns": [ "are you alive", "do you breathe", "can you run" ],
+         "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?","mode of payments" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?","what are the timings of the restraunt?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-12pm every day"]
+        },
+        {"tag": "loaction",
+         "patterns": ["what is the location of the restraunt?", "what is the location of the hotel?", "where is the hotel situated?" ],
+         "responses": ["Our hotel is situated in karkala, near NMAM Institute of Technology. The google map link is present in our website"],
+         "context_set": ""
+        },
+        {"tag": "today",
+         "patterns": ["today"],
+         "responses": ["For orders today please call 1-800-MYMOPED", "Same-day orders please call 1-800-MYMOPED"],
+         "context_filter": ""
+        },
+        {"tag": "JARVIS",
+         "patterns": ["Who are you?", "tell me about yourself", "tell me about you", "do you know JARVIS", "who is JARVIS", "what is your name","are you an AI", "what are you" ],
+         "responses": ["Hi I'm JARVIS and i'm an AI created for chatting with humans","JARVIS here, a very advance chatbot", "JARVIS, chatbot of future", "Yes, I'm JARVIS", "You can call me JARVIS"],
+	 "context_set": ""
+	},
+{"tag": "about me",
+         "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+         "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"],
+	 "context_set": ""
+	},
+{"tag": "creator",
+         "patterns": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
+         "responses": ["That would be you Shamita and Meghana","I was created by Shamita and Meghana", "Shamita and Meghana is my creator"],
+	 "context_set": ""
+	},
+{"tag": "myself",
+         "patterns": ["who is Shamita","who is Meghana"],
+         "responses": ["They are my creators. The duo shamita and meghana created me"],
+	 "context_set": ""
+	},
+ {"tag": "joke",
+         "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny","another one" ],
+         "responses": ["How do you make holy water? you boil the hell out of it","What kind of birds always forgets the lyrics? Humming Bird","Why can't astronauts eat popsicles? In space you cannot hear the ice cream truck", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+	 "context_set": ""
+	},
+{"tag": "bookings",
+         "patterns": ["Can you book us a room?", "Can you make reservation for hotels", "book me a cab","book me a table at restraunts","I want to reserve a table","book a table"],
+         "responses": ["Yes sure! We are checking for availibiblity. To confirm availibility mail us the details at hotel_bookings@gmail.com."],
+	 "context_set": ""
+	},
+{"tag": "stories",
+         "patterns": ["tell me a story?", "can you tell me a story","I want to hear a story"],
+         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+	 "context_set": ""
+	},
+{"tag": "weather",
+         "patterns": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
+         "responses": ["Fetching weather updates ..."],
+	 "context_set": "weather"
+	},
+
+{"tag": "news",
+         "patterns": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
+         "responses": ["Getting news ...oops I don't seem to connect with the current affairs"],
+	 "context_set": "news"
+	},
+{"tag": "food/cuisine",
+         "patterns": ["What's the special food at your restraunt?", "Famous cuisine"],
+         "responses": ["We have variety of cuisines available in our restraunt. You can order the food you like and have an amazing time with your friends and friends."],
+	 "context_set": ""
+	},
+{"tag": "party hall",
+         "patterns": ["I want to book a party hall.", "Is there a party hall at your hotel?"],
+         "responses": ["Yeah there is party hall too in our hotel. For booking please contact the number 6735689267"],
+	 "context_set": ""
+	},
+{"tag": "parking",
+         "patterns": ["Is there parking facility at your hotel?","is there valet parking at your hotel?","is there parking facility available at your hotel"],
+         "responses": ["Yes. We have made sure to have enough space at our restraunt! Have an amazing time with your family and friends!"],
+	 "context_set": ""
+	},
+{"tag": "feedback",
+         "patterns": ["Would like to give feedback","I want to give a feedback"],
+         "responses": ["We would be glad to receive your positive and negative feedbacks from our customers. Please mail us ur feedback to our emal id: hotel2.0@gmail.com or you can also call 7653896745, Thank You"],
+	 "context_set": ""
+	},
+{"tag": "swiggy zomato",
+         "patterns": ["Can we order the food from swiggy?", "Can we order the food from zomato?", "Can we order the food from swiggy zomato uber eats or any other online platform?","order food from swiggy","order from zomato"],
+         "responses": ["Yes you can order food from any of the online platform. We are glad to accept orders through online platform."],
+	 "context_set": ""
+	},
+{"tag": "order food",
+         "patterns": ["I want to order food","may i get the menu?","order food today","order food through call"],
+         "responses": ["we also have a facility of online ordering food through our website. For other details please find order food button on the right side of the webpage. You can also order food through telephone-6528936782. Thank you"],
+	 "context_set": ""
+	},
+{"tag": "drinks",
+         "patterns": ["is there drinks available?","is there a bar at your restraunt?","are there drinks?"],
+         "responses": ["We also provide a wide range of drinks from alcoholic to non-alcoholic beverages."],
+	 "context_set": ""
+	},
+{"tag": "AC or non-AC",
+         "patterns": ["Are there AC rooms available?"],
+         "responses": ["There are both AC and non-AC rooms available. You can choose one as per your convinience. To know more including the costs please find lodge button on the webpage"],
+	 "context_set": ""
+	},
+{"tag": "accessibility",
+         "patterns": ["important landmarks around","railway station around","airport","accessibilty of the hotel","Is your hotel easily accessible?","how is the accessibility of your hotel?"],
+         "responses": ["Our hotel is situated in the heart of the city and hence it is very accessibile. We have a bus stop and railway station nearby. We also cabs which can be used on prior booking, you can find the location details and route through our website"],
+	 "context_set": ""
+	},
+{"tag": "internet wifi facility",
+         "patterns": ["is there internet facility at your hotel?","do you have wifi facility?","is there free wifi service?"],
+         "responses": ["yes we do provide free wifi facility 24x7"],
+	 "context_set": ""
+	}
+   ]
+}
